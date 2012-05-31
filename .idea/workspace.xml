@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4eafb3-9a00-46ec-85f1-7e204c79fb0f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/presentation.class.php" afterPath="$PROJECT_DIR$/includes/presentation.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/tools.class.php" afterPath="$PROJECT_DIR$/includes/tools.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/admin_tools.js" afterPath="$PROJECT_DIR$/js/admin_tools.js" />
     </list>
     <ignored path="flowsplit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,7 +97,7 @@
       <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="919" selection-end="919" vertical-scroll-proportion="0.37168142">
+            <state line="25" column="22" selection-start="897" selection-end="897" vertical-scroll-proportion="0.3318584">
               <folding />
             </state>
           </provider>
@@ -438,7 +434,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="919" selection-end="919" vertical-scroll-proportion="0.37168142">
+        <state line="25" column="22" selection-start="897" selection-end="897" vertical-scroll-proportion="0.3318584">
           <folding />
         </state>
       </provider>
