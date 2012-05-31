@@ -42,11 +42,19 @@ class FlowSplit_ShortCodes{
             return $result;
         }
 
-        if ($onclick = $atts['option']){
-
-            $result = '<div data-flowsplit_id="'. $atts['id'] .'" data-flowsplit_option="'. $atts['option'] .'" class="flowsplit_content">' . $content . '</div>';
-
+        $change = false;
+        $splits = get_transient( 'flowsplit' );
+        if (!is_array($splits)) {
+            $splits = array();
+            $change=true;
         }
+        if (!in_array($atts['id'],$splits)) {
+            $splits[] = $atts['id'];
+            $change=true;
+        }
+        if ($change) set_transient( 'flowsplit', $splits );
+
+        $result = '<div data-flowsplit_id="'. $atts['id'] .'" data-flowsplit_option="'. $atts['option'] .'" class="flowsplit_content">' . $content . '</div>';
 
         $result = str_replace('flowsplitreward', 'return flowsplit_reward(\''. $atts['id'] . '\',\''.$atts['option'].'\');', $result);
 

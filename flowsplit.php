@@ -31,8 +31,11 @@ def choose():
 
 */
 
+load_plugin_textdomain( 'flowsplit', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+
 include_once 'includes/shortcodes.class.php';
 include_once 'includes/presentation.class.php';
+include_once 'includes/tools.class.php';
 
 
 ?>

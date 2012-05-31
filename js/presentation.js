@@ -10,7 +10,7 @@ function flowsplit_reward(id,option){
     jQuery.post(flowsplit_ajax.ajaxurl, data, function(response) {
     });
 
-    return false;
+    return true;
 
 }
 
