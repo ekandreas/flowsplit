@@ -22,6 +22,8 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 Read the introduction and examples at GitHub!
 
+https://github.com/EkAndreas/flowsplit/wiki/1---Introduction
+
 == Screenshots ==
 
 1. Statistics from the example test
