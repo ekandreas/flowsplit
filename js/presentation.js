@@ -1,4 +1,19 @@
 
+function flowsplit_reward(id,option){
+
+    var data = {
+    		action: 'flowsplit_reward',
+    		id: id,
+            option : option
+    	};
+
+    jQuery.post(flowsplit_ajax.ajaxurl, data, function(response) {
+    });
+
+    return false;
+
+}
+
 jQuery(document).ready(function($) {
 
     var flowsplit_content = [];
@@ -17,7 +32,7 @@ jQuery(document).ready(function($) {
             });
 
             var data = {
-            		action: 'show_content',
+            		action: 'flowsplit_show_content',
             		id: id,
                     options : flowsplit_options
             	};

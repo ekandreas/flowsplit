@@ -7,8 +7,10 @@ class FlowSplit_Presentation{
     function __construct(){
 
         add_action( 'wp_enqueue_scripts', array(&$this, 'wp_enqueue_scripts') );
-        add_action('wp_ajax_show_content', array(&$this, 'show_content'));
-        add_action('wp_ajax_nopriv_show_content', array(&$this, 'show_content'));
+        add_action('wp_ajax_flowsplit_show_content', array(&$this, 'show_content'));
+        add_action('wp_ajax_nopriv_flowsplit_show_content', array(&$this, 'show_content'));
+        add_action('wp_ajax_flowsplit_reward', array(&$this, 'reward'));
+        add_action('wp_ajax_nopriv_flowsplit_reward', array(&$this, 'reward'));
 
     }
 
@@ -66,7 +68,7 @@ class FlowSplit_Presentation{
         }
 
         //choose a random lever 10% of the time.
-        if (rand(1,10)==1 || ($highscore_index==0 && $highscore==0)){
+        if (rand(1,10)==1){
             $highscore_index = $options[rand(0,sizeof($options)-1)];
         }
 
@@ -78,6 +80,19 @@ class FlowSplit_Presentation{
         return $highscore_index;
 
     }
+
+    function reward(){
+
+        $id = esc_attr($_POST['id']);
+        $option = esc_attr($_POST['option']);
+
+        $storage = get_transient( 'flowsplit_' . $id );
+        $storage[$option]['rewards']++;
+        set_transient('flowsplit_'.$id,$storage);
+
+        error_log(print_r($storage,true));
+    }
+
 
 
 }

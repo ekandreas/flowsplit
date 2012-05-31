@@ -26,8 +26,7 @@ class FlowSplit_ShortCodes{
 
     	extract( shortcode_atts( array(
     		'id' => '0',
-            'option' => '0',
-            'onclick' => '0',
+            'option' => '0'
     	), $atts ) );
 
         if (!$atts['id']){
@@ -37,14 +36,10 @@ class FlowSplit_ShortCodes{
 
         }
 
-        if (!$atts['onclick'] && !$atts['option']){
+        if (!$atts['option']){
 
-            $result = "FlowSplit Error: flowsplit parameter 'option' or 'onclick' is missing!";
+            $result = "FlowSplit Error: flowsplit parameter 'option' is missing!";
             return $result;
-        }
-
-        if ($onclick = $atts['onclick']){
-
         }
 
         if ($onclick = $atts['option']){
@@ -52,6 +47,8 @@ class FlowSplit_ShortCodes{
             $result = '<div data-flowsplit_id="'. $atts['id'] .'" data-flowsplit_option="'. $atts['option'] .'" class="flowsplit_content">' . $content . '</div>';
 
         }
+
+        $result = str_replace('flowsplitreward', 'return flowsplit_reward(\''. $atts['id'] . '\',\''.$atts['option'].'\');', $result);
 
     	return $result;
     }
