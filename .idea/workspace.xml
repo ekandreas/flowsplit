@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4eafb3-9a00-46ec-85f1-7e204c79fb0f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/presentation.class.php" afterPath="$PROJECT_DIR$/includes/presentation.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/shortcodes.class.php" afterPath="$PROJECT_DIR$/includes/shortcodes.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/presentation.js" afterPath="$PROJECT_DIR$/js/presentation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flowsplit.php" afterPath="$PROJECT_DIR$/flowsplit.php" />
     </list>
     <ignored path="flowsplit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +24,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="flowsplit.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="flowsplit.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/flowsplit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="5" column="12" selection-start="129" selection-end="129" vertical-scroll-proportion="0.11210762">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="presentation.class.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="presentation.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/presentation.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="65" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.3497758">
+            <state line="71" column="65" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,6 +72,7 @@
         <option value="$PROJECT_DIR$/js/presentation.js" />
         <option value="$PROJECT_DIR$/includes/shortcodes.class.php" />
         <option value="$PROJECT_DIR$/includes/presentation.class.php" />
+        <option value="$PROJECT_DIR$/flowsplit.php" />
       </list>
     </option>
   </component>
@@ -281,13 +280,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flowsplit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/presentation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
@@ -304,7 +296,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/presentation.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="65" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.3497758">
+        <state line="71" column="65" selection-start="2285" selection-end="2285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowsplit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="129" selection-end="129" vertical-scroll-proportion="0.11210762">
           <folding />
         </state>
       </provider>
