@@ -1,3 +1,5 @@
+/*
+
 google.load("visualization", "1", {packages:["corechart"]});
       google.setOnLoadCallback(drawChart);
       function drawChart() {
@@ -11,10 +13,12 @@ google.load("visualization", "1", {packages:["corechart"]});
         ]);
 
         var options = {
-          title: 'My Daily Activities'
+          title: 'My Daily Activities',
+            backgroundColor: '#F6F6F6'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
         chart.draw(data, options);
-
       }
+
+    */

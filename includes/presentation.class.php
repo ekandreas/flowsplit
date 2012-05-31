@@ -55,6 +55,7 @@ class FlowSplit_Presentation{
         //calculate the expectation of reward.
         foreach($options as $option){
 
+            $storage[$option]['value'] = $option;
             if (((int)$storage[$option]['rewards'])==0) $storage[$option]['rewards'] = 1;
             if (((int)$storage[$option]['trials'])==0) $storage[$option]['trials'] = 1;
 
@@ -75,7 +76,7 @@ class FlowSplit_Presentation{
         $storage[$highscore_index]['trials'] = ((int)$storage[$highscore_index]['trials']) + 1;
         set_transient('flowsplit_'.$id,$storage);
 
-        error_log(print_r($storage,true));
+        //error_log(print_r($storage,true));
 
         return $highscore_index;
 
@@ -90,7 +91,7 @@ class FlowSplit_Presentation{
         $storage[$option]['rewards']++;
         set_transient('flowsplit_'.$id,$storage);
 
-        error_log(print_r($storage,true));
+        //error_log(print_r($storage,true));
     }
 
 

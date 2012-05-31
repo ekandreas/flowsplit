@@ -22,3 +22,7 @@ def choose():
 
 
 Regards, Andreas Ek, Flowcom AB
+
+
+[an example](http://example.com/ "Title")
+
