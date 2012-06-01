@@ -1,4 +1,4 @@
-=== Hypernews ===
+=== FlowSplit ===
 Contributors: flowcom_andreas
 Tags: split, testing, split testing
 Requires at least: 3.2
@@ -19,6 +19,8 @@ https://github.com/EkAndreas/flowsplit
 == Installation ==
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
+
+Or get it from WordPress repo http://wordpress.org/extend/plugins/flowsplit/
 
 Read the introduction and examples at GitHub!
 
