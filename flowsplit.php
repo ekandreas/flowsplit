@@ -3,7 +3,7 @@
 Plugin Name: FlowSplit
 Plugin URI: https://github.com/EkAndreas/flowsplit
 Description: Split testing helper
-Version: 1.1
+Version: 1.1.2
 Author: EkAndreas, Flowcom AB
 Author URI: http://www.flowcom.se
 License: GPL2

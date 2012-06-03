@@ -6,8 +6,13 @@ class FlowSplit_Tools{
 
     function public_display(){
 
+        echo '<div>';
+
         $this->admin_head(true);
         $this->display_charts(false);
+
+        echo '<div style="clear:both;></div>';
+        echo '</div>';
 
     }
 

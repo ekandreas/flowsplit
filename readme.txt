@@ -3,7 +3,7 @@ Contributors: flowcom_andreas
 Tags: split, testing, split testing
 Requires at least: 3.2
 Tested up to: 3.3.2
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 
 This is a WordPress plugin for split testing
 
@@ -34,7 +34,7 @@ https://github.com/EkAndreas/flowsplit/wiki/1---Introduction
 
 == Changelog ==
 
-= 1.1.1 =
+= 1.1.2 =
 * Public charts with shortcode [flowsplit_charts], demo
 
 = 1.1 =

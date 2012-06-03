@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c4eafb3-9a00-46ec-85f1-7e204c79fb0f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/shortcodes.class.php" afterPath="$PROJECT_DIR$/includes/shortcodes.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flowsplit.php" afterPath="$PROJECT_DIR$/flowsplit.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/tools.class.php" afterPath="$PROJECT_DIR$/includes/tools.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
     </list>
@@ -42,11 +42,11 @@
         <option value="$PROJECT_DIR$/js/presentation.js" />
         <option value="$PROJECT_DIR$/js/admin_tools.js" />
         <option value="$PROJECT_DIR$/includes/presentation.class.php" />
-        <option value="$PROJECT_DIR$/flowsplit.php" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/includes/shortcodes.class.php" />
         <option value="$PROJECT_DIR$/includes/tools.class.php" />
         <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/flowsplit.php" />
       </list>
     </option>
   </component>
@@ -305,11 +305,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flowsplit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="116" selection-end="116" vertical-scroll-proportion="0.054249547" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/presentation.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="0" selection-start="2789" selection-end="2839" vertical-scroll-proportion="0.8101266" />
@@ -325,23 +320,6 @@
         <state line="5" column="0" selection-start="137" selection-end="623" vertical-scroll-proportion="0.06637168" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="55" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.49115044">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/tools.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="9" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.5196706">
-          <folding>
-            <marker date="1338750152000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1338750152000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="101" selection-start="113" selection-end="155" vertical-scroll-proportion="0.026548672">
@@ -349,9 +327,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/includes/tools.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="8" selection-start="209" selection-end="209" vertical-scroll-proportion="0.17840806">
+          <folding>
+            <marker date="1338750720000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/includes/shortcodes.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.36618444">
+        <state line="26" column="21" selection-start="553" selection-end="553" vertical-scroll-proportion="0.27576855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="7" selection-start="966" selection-end="966" vertical-scroll-proportion="0.4778761">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flowsplit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="131" selection-end="131" vertical-scroll-proportion="0.067811936">
           <folding />
         </state>
       </provider>
