@@ -17,6 +17,14 @@ class FlowSplit_ShortCodes{
 
         add_filter('widget_text', 'do_shortcode');
         add_shortcode( 'flowsplit', array(&$this, 'flowsplit') );
+        add_shortcode( 'flowsplit_charts', array(&$this, 'flowsplit_charts') );
+
+    }
+
+    function flowsplit_charts(){
+
+        $tools = new FlowSplit_Tools();
+        $tools->public_display();
 
     }
 
