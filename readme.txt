@@ -16,6 +16,8 @@ Please use GitHub as communication point for this plugin!
 
 https://github.com/EkAndreas/flowsplit
 
+Example site with the FlowSplit plugin installed: http://plugins.flowcom.se/flowsplit
+
 == Installation ==
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
