@@ -5,7 +5,7 @@ Requires at least: 3.2
 Tested up to: 3.3.2
 Stable tag: 1.1.2
 
-This is a WordPress plugin for split testing
+Split Testing in WordPress with unique logics from Steve Hanov's idea.
 
 == Description ==
 
