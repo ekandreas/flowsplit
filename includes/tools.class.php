@@ -168,43 +168,47 @@ class FlowSplit_Tools{
 
     }
 
-    function display_charts($admin=false){
+		function display_charts($admin=false){
 
-        $splits = get_transient('flowsplit');
-        error_log(print_r($splits,true));
-        foreach($splits as $key => $split){
-            ?>
-            <div class="postbox">
-            <h3 style="padding:10px;"><?php echo $split; ?></h3>
-            <div class="inside">
-                <div id="flowsplit_<?php echo $split; ?>_chart_presentations" style="width: 400px; height: 300px; float:left;"></div>
-                <div id="flowsplit_<?php echo $split; ?>_chart_rewards" style="width: 400px; height: 300px; float:left;"></div>
+				$splits = get_transient('flowsplit');
+				//error_log(print_r($splits,true));
 
-                <?php
-                if ($admin){
-                    ?>
+				if (is_array( $splits ) ){
+					foreach($splits as $key => $split){
+							?>
+							<div class="postbox">
+								<h3 style="padding:10px;"><?php echo $split; ?></h3>
+								<div class="inside">
+										<div id="flowsplit_<?php echo $split; ?>_chart_presentations" style="width: 400px; height: 300px; float:left;"></div>
+										<div id="flowsplit_<?php echo $split; ?>_chart_rewards" style="width: 400px; height: 300px; float:left;"></div>
 
-                    <div style="clear:both;"></div>
+										<?php
+										if ($admin){
+												?>
 
-                    Clear all stats for <a href="?page=flowsplit_tools&delete=<?php echo $split; ?>" onclick="return confirm('Please, confirm delete stats for <?php echo $split; ?>');">[<?php echo $split; ?>]</a><br/>
-                    Clear stats for tag:
-                    <?php
-                    $storage = get_transient( 'flowsplit_' . $split );
-                    foreach($storage as $s){
-                        ?>
-                        <a href="?page=flowsplit_tools&delete=<?php echo $split; ?>&option=<?php echo $s['value']; ?>" onclick="return confirm('Please, confirm delete stats for <?php echo $s['value']; ?>');">[<?php echo $s['value'] ?>] </a>
-                        <?php
-                    }
-                }
-                ?>
+												<div style="clear:both;"></div>
 
-            </div>
-            </div>
-            <?php
-        }
+												Clear all stats for <a href="?page=flowsplit_tools&delete=<?php echo $split; ?>" onclick="return confirm('Please, confirm delete stats for <?php echo $split; ?>');">[<?php echo $split; ?>]</a><br/>
+												Clear stats for tag:
+												<?php
+												$storage = get_transient( 'flowsplit_' . $split );
+												foreach($storage as $s){
+														?>
+														<a href="?page=flowsplit_tools&delete=<?php echo $split; ?>&option=<?php echo $s['value']; ?>" onclick="return confirm('Please, confirm delete stats for <?php echo $s['value']; ?>');">[<?php echo $s['value'] ?>] </a>
+														<?php
+												}
+										}
+										?>
+
+								</div>
+							</div>
+							<?php
+					}
+
+			}
 
 
-    }
+		}
 
 }
 
